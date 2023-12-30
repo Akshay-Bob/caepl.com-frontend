@@ -1,0 +1,112 @@
+.center .overlay {
+  background: #41413ed1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  transform-origin: top left;
+  transform: scale(1, 1);
+  transition: transform 0.2s, opacity 0.2s;
+  cursor: pointer;
+}
+
+.item:hover .overlay {
+  background: #41413ed1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  transform-origin: top left;
+  transform: scale(1, 1);
+  transition: transform 0.2s, opacity 0.2s;
+  cursor: pointer;
+}
+
+.item:hover .akshay,
+.akshay {
+  background: #41413ed1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  transform-origin: top left;
+  transform: scale(1, 1);
+  transition: transform 0.2s, opacity 0.2s;
+  cursor: pointer;
+}
+
+.center .akshay {
+  background: transparent;
+}
+
+.center .akshay .text {
+  display: none;
+}
+
+.akshay .text {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  font-family: var(--secondary-font);
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 22px;
+  font-size: 23px;
+}
+
+.center .text {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  font-family: var(--secondary-font);
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 22px;
+  font-size: 20px;
+}
+.text {
+  display: none;
+}
+.item:hover .text {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  font-family: var(--secondary-font);
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 26px;
+  font-size: 20px;
+}
